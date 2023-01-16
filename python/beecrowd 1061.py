@@ -1,13 +1,25 @@
-começod = float(input())
+começodia = input( ).split() 
 
-horad = float(input())
+começoevento = input( ).split(':')
 
-final = float(input())
+finaldia = input( ).split()
 
-finalh = (float(input()))
-
-
+finalevento = input( ).split(':')
 
 
+dia = 1
 
-print( {}'dia(s)\n {}hora(s) \n {}minuto(s)\n {}segundo(s)'.format(dias, horas, minutos, segundos))
+hora = dia * 24
+
+minuto = 24*60
+
+segundo = minuto /60
+
+diferençat = 
+
+
+print('você digitou{}'.format(começodia))
+print('você digitou{}'.format(começoevento))
+
+
+#print( '{}dia(s)\n {}hora(s) \n {}minuto(s)\n {}segundo(s)'.format(dias, horas, minutos, segundos))

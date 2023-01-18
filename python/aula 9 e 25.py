@@ -1,8 +1,8 @@
-numero = str(input('digite um numero entre 0 e 9999 '))
+nome = str(input(' digite o seu nome '))
 
-numdiv1 = numero.split()
-numdiv2 = numero.split()
-numdiv3 = numero.split()
-numdiv4 = numero.split()
+nome = nome.find('silva')
 
-print('unidade: {}'.format(numdiv4[1]))
+if nome == -1:
+    print('não tem silva no seu nome')
+else:
+    print('existe silva no seu nome')    

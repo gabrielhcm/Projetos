@@ -1,8 +1,11 @@
-numero = str(input('digite um numero entre 0 e 9999 '))
+frase = str(input(' digite uma frase '))
 
-numdiv1 = numero.split()
-numdiv2 = numero.split()
-numdiv3 = numero.split()
-numdiv4 = numero.split()
+numn = frase.count('a')
 
-print('unidade: {}'.format(numdiv4[1]))
+numcome = frase.find('a')
+
+numfinal = frase.rfind('a')
+
+print(numn)
+print(numcome)
+print(numfinal)

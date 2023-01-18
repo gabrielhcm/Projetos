@@ -1,8 +1,12 @@
-numero = str(input('digite um numero entre 0 e 9999 '))
+cidaden = str(input('Digite o nome da cidade '))
 
-numdiv1 = numero.split()
-numdiv2 = numero.split()
-numdiv3 = numero.split()
-numdiv4 = numero.split()
+cidaden = cidaden.find('Santo')
 
-print('unidade: {}'.format(numdiv4[1]))
+if cidaden == -1:
+ print('não começa')
+elif cidaden == 0:
+ print('começa')  
+else:  
+ print('não começa')
+
+ # forma preguiçosa de se usar .find

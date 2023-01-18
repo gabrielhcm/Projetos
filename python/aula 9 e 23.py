@@ -1,9 +1,6 @@
-numero = str(input('digite um numero entre 0 e 9999 '))
+numero = int(input('digite um numero entre 0 e 9999 '))
 
+numeroc = str(numero)
 
+print('unidade '.format())
 
-numerosl = [int(i) for i in numero]
-
-print(numerosl)
-
-#print('unidade: {}'.format(numdiv1[3]))

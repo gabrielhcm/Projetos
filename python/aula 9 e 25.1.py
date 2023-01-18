@@ -1,13 +1,3 @@
-nome = str(input(' digite o seu nome '))
+nome = str(input(' digite o seu nome ')).strip()
 
-nome = 'silva' in nome
-
-
-print(nome)
-
-## nome = nome.find('silva')
-
-#if nome == -1:
-    #print('não tem silva no seu nome')
-#else:
-    #print('existe silva no seu nome')    
+print('Seu nome tem silva? {}'.format('silva' in nome.lower()))

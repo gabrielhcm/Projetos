@@ -1,6 +1,6 @@
-nome = str(input(' digite o seu nome '))
+nome = str(input(' digite o seu nome ')).strip()
 
-nome = nome.find('silva')
+nome = nome.find('silva').upper()
 
 if nome == -1:
     print('não tem silva no seu nome')

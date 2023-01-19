@@ -13,7 +13,9 @@ elif pcjoken == 2:
  pcescolha = 'papel'   
 elif pcjoken == 3:
   pcescolha = 'tesoura'    
-
+else:
+ print('erro')   
+ 
 print(' o computador escolheu {}!'.format(pcescolha))
 
 if jogador == 'pedra'and pcescolha == 'tesoura':

@@ -1,9 +1,18 @@
-num1 = int(input('digite o primeiro numero '))
-num2 = int(input('digite o segundo numero '))
+a = float(input('reta 1: '))
+b = float(input('reta 2: '))
+c = float(input('reta 3: '))
 
-if num1 > num2:
- print('O primeiro numero é maior')
-elif num2 > num1:
- print('O segundo numero é maior')
-elif num1 == num2:
- print('Os dois numeros sao iguais')     
+
+
+if( b - c ) < a < b + c and ( a - c ) < b < a + c and ( a - b ) < c < a + b:
+   print( 'pode se formar um triangulo')
+   
+else:
+  print('nao pode se formar um triangulo')
+
+if a == b and b == c:
+    print('equilatero')
+elif a==b or a==c or b==c:
+    print('isosceles')
+elif a != b and b!=c:
+    print('escaleno')    

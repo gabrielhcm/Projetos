@@ -1,9 +1,17 @@
-num1 = int(input('digite o primeiro numero '))
-num2 = int(input('digite o segundo numero '))
+from datetime import date
 
-if num1 > num2:
- print('O primeiro numero é maior')
-elif num2 > num1:
- print('O segundo numero é maior')
-elif num1 == num2:
- print('Os dois numeros sao iguais')     
+ano = int(input('digite o seu ano de nascimento '))
+anoatual = date.today().year
+
+idade = ano - anoatual
+
+if idade >=0 and  idade <= 9:
+    print('mirim')
+elif idade >= 9 and idade <=14:
+    print('infantil')    
+elif idade >= 14 and idade <=19:
+    print('junior')   
+elif idade >= 19 and idade <=20:
+    print('senior')       
+elif idade >= 21:
+    print('master')       

@@ -6,10 +6,9 @@ anosmes = anos * 12
 
 prestam = valorcasa / anosmes
 
-print(salario*0.30) - salario
+min = salario * 30 / 100
 
-
-#if prestam < (salario /0.30):
-       #print('emprestimo negado')
-#else:
-   #print('o valor da prestação será {:.2f}'.format(prestam)) 
+if prestam > salario:
+ print('Emprestimo negado!')
+else:
+ print('o valor da prestação será: R${:.2f} Reais'.format(prestam)) 

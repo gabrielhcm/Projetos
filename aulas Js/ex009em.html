@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual o seu páis?</h1>
+   Digite o seu páis! <input type="text" name="txtpais" id="txtpais"> 
+   <input type="button" value="verificar" onclick="verificacao()">
+   <div id = "res">
+
+   </div>
+    
+    <script>
+        
+
+        function verificacao() {
+            var txtv = window.document.querySelector('input.txtpais')
+            var res = window.document.querySelector('div')
+            var pais = Text(txtpais.Text)
+            res.innerHTML = `seu pais é ${pais}`
+
+            var brasilero = 'Brasil'
+            
+            if (txtpais == 'Brasileiro'){
+                res.innerHTML +=`<p>Você é <strong> Brasileiro! </strong>`
+            }
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança!<p>`
+
+        }
+
+
+    </script>
+
+
+</body>
+</html>

@@ -1,5 +1,5 @@
-sexo = 'a'
+sexo = str(input('digite o seu sexo f/m!: ')).strip().upper()[0]
+while sexo not in 'mMfF':
+    sexo = str(input('digite o seu sexo denovo, dados invalidos:')).strip().upper()[0]
 
-while sexo != 'F' and 'M':
-        sexo = str(input('digite o seu sexo f/m!: ')).upper
-print('fim')              
+print('o sexo {} registrado com sucesso'.format(sexo))              

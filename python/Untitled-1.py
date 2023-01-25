@@ -1,0 +1,12 @@
+print( 'Dia 10 de janeiro de 2023.') 
+print('                                                                    ')
+print('Eu queria muito aprender python para poder ter um futuro melhor')
+print('                                                                    ')
+print('Começarei a fazer TI mês que vem.')
+print('                                                                    ')
+print('Nunca desista do seu objetivo, você é o unico filho que eles tem!')  
+print('                                                                    ')
+print('Em 3 meses eu aprendi o basico de python ')
+print('                                                                    ')
+print('Gabriel Henrique, 24 anos')
+

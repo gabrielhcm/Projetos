@@ -4,7 +4,7 @@ let ano = data.getFullYear()
 let fano = document.getElementById('txtano')
 let res = document.querySelector('div#res')
 if(fano.value.length == 0 ||  fano.value > ano) {
-    window.alert('Erro, Verifique os dados e tente novamente')
+    window.alert('Erro, verifique os dados e tente novamente')
 
 
 } else {

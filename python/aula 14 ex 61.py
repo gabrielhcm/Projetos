@@ -1,7 +1,11 @@
 prim = int(input('digite o primeiro termo'))
 razão = int(input('digite a razão'))
-decimo = prim + (10-1) * razão
-
+term = prim
+cont = 1
 for c in range (prim,decimo+razão,razão):
   print('{} '.format(c))
 print('acabou')  
+
+while cont <= 10:
+  print('{}'.format(termo))
+

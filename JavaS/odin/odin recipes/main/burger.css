@@ -1,9 +1,6 @@
 img{
     width: 480px;
 }
-img{
-    width: 480px;
-}
 
 div{
     background-color: red;
@@ -18,7 +15,8 @@ p{
     text-align: center;
    color: white;
 }
-button{
+#button{
     background-color: orange;
     font-size: 18px;
+    
 }

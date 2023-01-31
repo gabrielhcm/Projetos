@@ -1,9 +1,6 @@
 img{
     width: 480px;
 }
-img{
-    width: 480px;
-}
 
 div{
     background-color: red;
@@ -18,7 +15,16 @@ p{
     text-align: center;
    color: white;
 }
-button{
+#button{
     background-color: orange;
     font-size: 18px;
+}
+
+.h2potato{
+    color: rgb(61, 61, 80);
+    font-size: 36px;
+}
+#dire{
+    background-color: rgb(110, 196, 110);
+    font-size: 24px bold;
 }

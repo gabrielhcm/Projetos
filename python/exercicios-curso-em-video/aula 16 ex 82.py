@@ -1,14 +1,20 @@
-valores = list()
+lista = list()
+listap = list()
+listaim = list()    
 
+contador = 0
 while True:
-    test = int(input("digite um numero "))
-    if test not in valores:
-        valores.append(test)
-        print("valor adicionado")
-    else:
-        print('valor ja foi inserido')
-    perg = str(input("quer continuar? [s/n]")).upper()
-    if perg in "Nn":
-        break
-valores.sort()    
-print(valores)    
+    numeros = int(input("digite um numero "))
+    lista.append(numeros)
+    escolha = str(input("quer continuar? [s/n] "))
+    if escolha in "nN":
+        break       
+for c in lista:
+    if c % 2 == 0:
+        listap.append(c)
+    elif c % 2 !=0:
+        listaim.append(c)
+
+print(f"a sua lista completa foi {lista}")
+print(f"a lista com os numeros pares é {listap}")
+print(f"a lista com os numeros impares é {listaim}")       
